@@ -14,3 +14,4 @@ AppData/
 .vimrc
 .zshrc
 {{ end }}
+.git/
