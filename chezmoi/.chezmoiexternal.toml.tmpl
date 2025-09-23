@@ -1,4 +1,4 @@
-{{ if or (eq .chezmoi.os "linux") (eq .chezmoi.os "darwin") }}
+{{- if or (eq .chezmoi.os "linux") (eq .chezmoi.os "darwin") }}
 
 [".oh-my-zsh"]
     type = "archive"
@@ -31,4 +31,4 @@
     exact = true
     stripComponents = 1
 
-{{ end }}
+{{- end }}
