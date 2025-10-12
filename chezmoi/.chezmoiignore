@@ -1,5 +1,6 @@
 */README.md
 .git/
+lazy-lock.json
 
 {{- if ne .chezmoi.os "windows" }}
 Documents/
